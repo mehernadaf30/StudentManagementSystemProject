@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Student Management System Application</display-name>
+  
+  	<!-- <servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.LoginPage_Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>LoginPage.jsp</welcome-file>
+	</welcome-file-list> -->
+	
+		
+	<!-- Login Servlet -->
+	<!-- <servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.LoginPage_Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	AddAttendance_UserPageServlet
+	<servlet>
+		<servlet-name>addAttendance</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.AddAttendance_UserPageServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addAttendance</servlet-name>
+		<url-pattern>/addAttendance</url-pattern>
+	</servlet-mapping>
+	
+	
+	AddFee_UserPageServlet
+	<servlet>
+		<servlet-name>addFee</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.AddFee_UserPageServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addFee</servlet-name>
+		<url-pattern>/addFee</url-pattern>
+	</servlet-mapping>
+	
+	
+	AddMarksheet_UserPageServlet
+	<servlet>
+		<servlet-name>addMarksheet</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.AddMarksheet_UserPageServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addMarksheet</servlet-name>
+		<url-pattern>/addMarksheet</url-pattern>
+	</servlet-mapping>
+	
+	
+	AddSubject_UserPageServlet
+	<servlet>
+		<servlet-name>addSubject</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.AddSubject_UserPageServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addSubject</servlet-name>
+		<url-pattern>/addSubject</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	
+	
+	<!-- AttendanceDetailPage_Servlet -->
+	<!-- <servlet>
+		<servlet-name>attendanceDetailPage_Servlet</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.AttendanceDetailPage_Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>attendanceDetailPage_Servlet</servlet-name>
+		<url-pattern>/AttendanceDetailPage_Servlet</url-pattern>
+		<url-pattern>/attendanceDetailPage_Servlet</url-pattern>
+	    <url-pattern>/attendanceDetailPage_Servlet/new</url-pattern>
+	    <url-pattern>/attendanceDetailPage_Servlet/list</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	
+	
+	<!-- changePassword_Servlet -->
+	<!-- <servlet>
+		<servlet-name>changePassword_Servlet</servlet-name>
+		<servlet-class>net.studentmanagementsystem.web.changePassword_Servlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>changePassword_Servlet</servlet-name>
+		<url-pattern>/changePassword_Servlet</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>LoginPage.jsp</welcome-file>
+	</welcome-file-list> -->
+	
+	
+	<!-- <servlet>
+	    <servlet-name>AddFee_UserPageServlet</servlet-name>
+	    <servlet-class>net.studentmanagementsystem.web.AddFee_UserPageServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	    <servlet-name>AddFee_UserPageServlet</servlet-name>
+	    <url-pattern>/addFee/*</url-pattern>
+ 	</servlet-mapping> -->
+ 	
+	 <!-- <servlet>
+	   <servlet-name>StudentDetailPage_Servlet</servlet-name>
+	   <servlet-class>StudentDetailPage_Servlet</servlet-class>
+	</servlet>
+ 
+	<servlet-mapping>
+	   <servlet-name>StudentDetailPage_Servlet</servlet-name>
+	   <url-pattern>/StudentDetailPage_Servlet</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- <servlet>
+		 <servlet-name>abc</servlet-name>
+		 <servlet-class>StudentDetailPage_Servlet</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		 <servlet-name>abc</servlet-name>
+		 <url-pattern>/studentDetailPage_Servlet</url-pattern>
+		 <url-pattern>/studentDetailPage_Servlet/new</url-pattern>
+		 <url-pattern>/studentDetailPage_Servlet/list</url-pattern>
+		 <url-pattern>/</url-pattern>
+		 <url-pattern>/new</url-pattern>
+		 <url-pattern>/list</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	<!-- <servlet>
+	   <servlet-name>StudentDetailPage_Servlet</servlet-name>
+	   <servlet-class>net.studentmanagementsystem.web.StudentDetailPage_Servlet</servlet-class>
+	</servlet>
+ 
+	<servlet-mapping>
+	   <servlet-name>StudentDetailPage_Servlet</servlet-name>
+	   <url-pattern>/StudentDetailPage_Servlet</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- <servlet>
+        <servlet-name>StudentDetailPage</servlet-name>
+        <servlet-class>net.studentmanagementsystem.web.StudentDetailPage_Servlet</servlet-class>    
+
+    </servlet>
+
+    <servlet-mapping>
+            <servlet-name>StudentDetailPage</servlet-name>
+            <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+     -->
+     
+     
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>StudentDetailPage_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/scdemo</url-pattern>
+    </servlet-mapping>
+     
+	
+  	<error-page>
+   	 	<exception-type>java.lang.Exception</exception-type>
+   	 	<location>/Error.jsp</location>
+  	</error-page>
+</web-app>
+
+
+
+<!-- <display-name>LoginServlet</display-name>
+<servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>LoginPage_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>LoginPage.jsp</welcome-file>
+</welcome-file-list>
+</web-app> -->
